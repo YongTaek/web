@@ -17,7 +17,7 @@ h1,h2 {
 dl {
 	font-size: 70%;
 }
-em, dl dt {
+strong, dl dt {
 	color: #FFF86B
 }
 dl dt {
