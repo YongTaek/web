@@ -47,7 +47,7 @@ span {
 	border-color: blue;
 }
 
-img {
+div img {
 	float: right;
 }
 
@@ -66,6 +66,6 @@ aside > ul {
 	margin-left: 15px;
 	margin-right: 15px;
 }
-*:hover:not(body):not(div):not(section):not(aside):not(header):not(html):not(article):not(ul) {
+*:hover:not(body):not(div):not(section):not(aside):not(header):not(html):not(article):not(ul){
 	background-color: #A6CE39;
 }

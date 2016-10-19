@@ -1,0 +1,107 @@
+body {
+	background-image: url(background.png);
+	font-size: 8px;
+	font-family: Verdana, Tahoma, sans-serif;
+	margin: 0px;
+}
+body > div:first-child  {
+	height: 50px;
+	text-align: center;
+	background-image: url(bannerbg.png);
+}
+body > h1 {
+	text-align: center;
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: Tahoma, Verdana, sans-serif;
+	text-shadow: 3px 3px #999999;
+}
+body > div:nth-child(3) {
+	width: 800px;
+	margin: auto;
+	border: 4px solid;
+	border-color: gray;
+	border-radius: 20px;
+	overflow: hidden;
+}
+body > div:nth-child(3) > div:first-child >  div:nth-child(2) {
+	width: 550px;
+}
+body > div:nth-child(3) > div:first-child > div:nth-child(2) > div:first-child {
+	background-image: url(rbg.png);
+	background-repeat: repeat-x;
+	height: 83px;
+}
+body > div:nth-child(3) > div:first-child > div:nth-child(2) > div:first-child > img {
+	vertical-align: bottom;
+}
+body > div:nth-child(3) > div:first-child > div:nth-child(2) > div:first-child > span {
+	font-size: 48pt;
+	font-weight: bold;
+	color: red;
+}
+div div div div:nth-child(n + 2) > p:first-child {
+	font-size: 8pt;
+	font-weight: bold;
+	padding: 8px;
+	background-color: #E8DC9B;
+	border: 2px solid;
+	border-color: gray;
+	border-radius: 10px;
+	overflow:hidden;
+}
+div div div div:nth-child(n + 2) {
+	width: 47%;
+	margin: 0 2% 0 2%;
+	margin-bottom: 20pt;
+	overflow: hidden;
+}
+div div div div:nth-child(n + 2) > p > img {
+	margin-right: 5px;
+	float: left;
+}
+div div div div:nth-child(n + 2) > p > span {
+	font-style: italic;
+}
+div div div div:nth-child(n + 2) > p:nth-child(2){
+	overflow: hidden;
+	vertical-align: bottom;
+}
+
+div div div div:nth-child(n + 2):nth-last-child(n + 6) {
+	float: left;
+}
+body > div > div:first-child > div:first-child {
+	background-color: #A2B964;
+	float: right;
+	width: 250px;
+}
+div div div dl {
+	margin-left: 10pt;
+	font-size: 8pt;
+	font-family: Arial, sans-serif;
+}
+div div div dl dt {
+	font-weight: bold;
+	margin-top: 10pt;
+}
+div div div dl dd ul {
+	list-style: none;
+	padding-left: 0;
+}
+body > div > div:last-child {
+	background-color: #A2B964;
+	vertical-align: bottom;
+	padding: 2.5px;
+	text-align: center;
+
+}
+body > div > div:first-child {
+	overflow: hidden;
+}
+body > div:last-child {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	opacity: 0.5;
+}
